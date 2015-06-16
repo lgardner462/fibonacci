@@ -8,7 +8,9 @@ def fib(n):
 	else:
 		return fib(n-1)+fib(n-2)
 
-x=int(input("How many?"))
+x=int(input("Fib(n) n=?\n"))
 z=fib(x)
+print
 print(z)
+
 
