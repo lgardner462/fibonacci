@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # test
+import sys
 
 def fib(n):
 	if n ==1:
@@ -10,8 +11,8 @@ def fib(n):
 	else:
 		return fib(n-1)+fib(n-2)
 
-x=int(input("Fib(n) n=?\n"))
-z=fib(x)
+x= int(sys.argv[1])fib
+z= fib(x)
 print
 print(z)
 
