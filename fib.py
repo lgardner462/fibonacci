@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-# test
 import sys
 
 def fib(n):
