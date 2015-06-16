@@ -11,9 +11,8 @@ def fib(n):
 	else:
 		return fib(n-1)+fib(n-2)
 
-x= int(sys.argv[1])fib
+x= int(sys.argv[1])
 z= fib(x)
-print
 print(z)
 
 
