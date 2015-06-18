@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
 import sys
-import socket
+import platform
 
-print(socket.gethostname())
+
 
 def fib(n):
 	if n ==1:
@@ -16,5 +16,5 @@ def fib(n):
 x= int(sys.argv[1])
 z= fib(x)
 print(z)
-
+print(platform.node())
 
