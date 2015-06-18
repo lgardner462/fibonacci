@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
 import sys
+import socket
+
+print(socket.gethostname())
 
 def fib(n):
 	if n ==1:
